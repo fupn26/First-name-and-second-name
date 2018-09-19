@@ -16,7 +16,7 @@ int main()
 cout<< "Please enter your first an second names!\n";
 string first;
 string second;
-cin>> first >> second;
-string name = first+" "+second; #Here we make another variable and its value is the combination of the first and the second 
+cin>> first >> second; //read two strings
+string name = first+" "+second; //concatenate strings
 cout<< "Hello, "<<name<<"!\n";
 }
